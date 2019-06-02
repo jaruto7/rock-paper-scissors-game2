@@ -1,15 +1,14 @@
-html, body { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Gloria Hallelujah', cursive; }
+@media (min-width: 1024px) { html, body { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Gloria Hallelujah', cursive; }
+  h1 { text-align: center; font-size: 2rem; margin: 0; padding: 20px 0; background-color: #4F5A8E; color: #8495eb; }
+  h2 { margin: 30px 0; font-size: 40px; }
+  h1, h2 { text-transform: uppercase; }
+  .select { overflow: hidden; text-align: center; margin: 0 auto; max-width: 1000px; }
+  .select img { width: 200px; margin: 20px; display: inline-block; }
+  button { display: block; padding: 5px 20px; border: 2px solid #4F5A8E; text-transform: uppercase; background-color: #fff; font-family: 'ZCOOL KuaiLe', cursive; font-weight: bold; margin: 10px auto; transition: .3s; font-size: 30px; color: #4F5A8E; cursor: pointer; }
+  button:hover { background-color: #4C569A; color: #fff; } }
 
-h1 { text-align: center; font-size: 2rem; margin: 0; padding: 20px 0; background-color: #4F5A8E; color: #8495eb; }
+@media (min-width: 1024px) { .panel { margin: 20px; }
+  .panel h3 { text-transform: uppercase; }
+  .panel-left, .panel-right { display: inline-block; width: 48%; overflow: hidden; margin: 40px auto 0; text-align: center; font-size: 20px; } }
 
-h2 { margin: 30px 0; font-size: 40px; }
-
-h1, h2 { text-transform: uppercase; }
-
-.select { overflow: hidden; text-align: center; margin: 0 auto; max-width: 1000px; }
-
-.select img { width: 200px; margin: 20px; display: inline-block; }
-
-button { display: block; padding: 5px 20px; border: 2px solid black; text-transform: uppercase; background-color: #fff; font-family: 'ZCOOL KuaiLe', cursive; font-weight: bold; margin: 10px auto; transition: .3s; font-size: 30px; cursor: pointer; }
-
-button:hover { background-color: #4C569A; color: #fff; }
+span { font-weight: bold; }
