@@ -44,7 +44,7 @@ const selectHand = function () {
  // Użyj metody forEach aby dezaktywować obramowanie przy elementach img
  hands.forEach(img => img.style.boxShadow = '');
  // Użyj obiektu this aby aktywować obramowanie elementu który został kliknięty
- this.style.boxShadow = '0 0 0 4px seagreen';
+ this.style.boxShadow = '0 0 0 4px lightblue';
 
 }
 
@@ -64,11 +64,11 @@ const publishResult = (player, ai, result) => {
   document.querySelector('[data-summary="who-win"]').style.color = 'green';
  } else if (result === 'lose') {
   document.querySelector('.losses span').textContent = ++gameSummary.losses;
-  document.querySelector('[data-summary="who-win"]').textContent = 'Przegrałeś :/';
+  document.querySelector('[data-summary="who-win"]').textContent = 'You lose :/';
   document.querySelector('[data-summary="who-win"]').style.color = 'red';
  } else {
   document.querySelector('.draws span').textContent = ++gameSummary.draws;
-  document.querySelector('[data-summary="who-win"]').textContent = 'Remis!';
+  document.querySelector('[data-summary="who-win"]').textContent = 'Draw!';
   document.querySelector('[data-summary="who-win"]').style.color = 'gray';
  }
 }

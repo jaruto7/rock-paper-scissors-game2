@@ -1,62 +1,68 @@
-@media(min-width: 1024px) {
+html,
+body {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Gloria Hallelujah', cursive;
+}
 
- html,
- body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Gloria Hallelujah', cursive;
+h2 {
+ margin: 30px 0;
+ font-size: 33px;
+}
+
+h1 {
+ text-align: center;
+ font-size: 1.7rem;
+ margin: 0;
+ padding: 20px 0;
+ background-color: #4F5A8E;
+ color: rgb(132, 149, 235);
+}
+
+h1,
+h2 {
+ text-transform: uppercase;
+}
+
+.select {
+ overflow: hidden;
+ text-align: center;
+ margin: 0 auto;
+ max-width: 767px;
+
+ & img {
+  width: 200px;
+  margin: 20px;
+  display: inline-block;
  }
+}
 
- h1 {
-  text-align: center;
-  font-size: 2rem;
-  margin: 0;
-  padding: 20px 0;
-  background-color: #4F5A8E;
-  color: rgb(132, 149, 235);
+button {
+ display: block;
+ padding: 5px 20px;
+ border: 2px solid #4F5A8E;
+ text-transform: uppercase;
+ background-color: #fff;
+ font-family: 'ZCOOL KuaiLe', cursive;
+ font-weight: bold;
+ margin: 10px auto;
+ transition: .3s;
+ font-size: 30px;
+ color: #4F5A8E;
+ cursor: pointer;
+
+ &:hover {
+  background-color: #4C569A;
+  color: #fff;
  }
+}
 
- h2 {
-  margin: 30px 0;
-  font-size: 40px;
- }
-
- h1,
- h2 {
-  text-transform: uppercase;
- }
-
+@media(min-width: 533px) AND (min-height: 320px) {
  .select {
-  overflow: hidden;
-  text-align: center;
-  margin: 0 auto;
-  max-width: 1000px;
 
   & img {
-   width: 200px;
-   margin: 20px;
-   display: inline-block;
-  }
- }
-
- button {
-  display: block;
-  padding: 5px 20px;
-  border: 2px solid #4F5A8E;
-  text-transform: uppercase;
-  background-color: #fff;
-  font-family: 'ZCOOL KuaiLe', cursive;
-  font-weight: bold;
-  margin: 10px auto;
-  transition: .3s;
-  font-size: 30px;
-  color: #4F5A8E;
-  cursor: pointer;
-
-  &:hover {
-   background-color: #4C569A;
-   color: #fff;
+   width: 130px;
   }
  }
 }

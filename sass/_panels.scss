@@ -1,23 +1,29 @@
-@media(min-width: 1024px) {
- .panel {
-  margin: 20px;
+.panel {
+ margin: 20px;
 
-  h3 {
-   text-transform: uppercase;
-  }
+ h2 {
+  text-transform: uppercase;
  }
+}
 
- .panel-left,
- .panel-right {
-  display: inline-block;
-  width: 48%;
-  overflow: hidden;
-  margin: 40px auto 0;
-  text-align: center;
-  font-size: 20px;
- }
+.panel-left,
+.panel-right {
+ display: inline-block;
+ width: 100%;
+ overflow: hidden;
+ margin: 40px auto 0;
+ text-align: center;
+ font-size: 20px;
 }
 
 span {
  font-weight: bold;
+}
+
+@media(min-width: 1024px) {
+
+ .panel-left,
+ .panel-right {
+  width: 48%;
+ }
 }
