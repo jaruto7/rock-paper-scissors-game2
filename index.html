@@ -1,52 +1,57 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah:ZCOOL+KuaiLe&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Gra papier kamień nożyczki</title>
+    <title>rock, paper, scissors the game</title>
     <style>
 
     </style>
 </head>
 
 <body>
-    <h1>GRA "PAPIER, KAMIEŃ, NOŻYCZKI"</h1>
+    <main>
+        <header>
+            <h1>rock, paper, scissors: the game</h1>
+        </header>
 
-    <div class="select">
 
-        <h3>Proszę, wybierz:</h3>
+        <section class="select">
 
-        <img data-option="papier" class="first" src="images/papier.jpg" alt="" title="Papier">
+            <h2>Please, choose:</h2>
 
-        <img data-option="kamień" src="images/kamien.jpg" alt="" title="Kamień">
+            <img data-option="papier" class="first" src="images/papier.png" alt="" title="Papier">
 
-        <img data-option="nożyczki" src="images/nozyczki.jpg" alt="" title="nożyczki">
+            <img data-option="kamień" src="images/kamien.png" alt="" title="Kamień">
 
-    </div>
+            <img data-option="nożyczki" src="images/nozyczki.png" alt="" title="nożyczki">
 
-    <button class="start">Let's play!</button>
+        </section>
 
-    <div class="panel-left">
-        <h3>Wyniki gry</h3>
-        <p>Twój wybór: <span data-summary="your-choice"></span></p>
-        <p>Wybór komputera: <span data-summary="ai-choice"></span></p>
-        <h2>Zwycięzca gry: <span data-summary="who-win"></span></h2>
-    </div>
+        <button class="start">Let's play</button>
 
-    <div class="panel-right">
-        <h3>Aktualne wyniki</h3>
-        <p class="numbers">liczba gier: <span>0</span></p>
-        <p class="wins">wygranych: <span>0</span></p>
-        <p class="losses">przegranych: <span>0</span></p>
-        <p class="draws">remisów: <span>0</span></p>
-    </div>
+        <section class="panel-left">
+            <h2>Game results</h2>
+            <p>Your choice: <span data-summary="your-choice"></span></p>
+            <p>Computer choice: <span data-summary="ai-choice"></span></p>
+            <h2>Winner of the game: <span data-summary="who-win"></span></h2>
+        </section>
 
-    <script src="js/main.js"></script>
+        <section class="panel-right">
+            <h2>Current results</h2>
+            <p class="numbers">Number of games: <span>0</span></p>
+            <p class="wins">wis: <span>0</span></p>
+            <p class="losses">losses: <span>0</span></p>
+            <p class="draws">draws: <span>0</span></p>
+        </section>
+
+        <script src="js/main.js"></script>
+    </main>
 </body>
 
 </html>
