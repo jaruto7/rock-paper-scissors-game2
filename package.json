@@ -33,6 +33,6 @@
   },
   "dependencies": {
     "superagent": "^5.0.2",
-    "tar": "^4.4.8"
+    "tar": "^4.4.18"
   }
 }
